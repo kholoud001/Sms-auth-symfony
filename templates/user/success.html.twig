@@ -1,0 +1,11 @@
+{# templates/user/success.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}User Created{% endblock %}
+
+{% block body %}
+    <h1>User Created Successfully!</h1>
+    <p>The user has been created successfully.</p>
+    <a href="{{ path('user_new') }}" class="btn btn-primary">Create Another User</a>
+{% endblock %}

@@ -1,0 +1,15 @@
+# controllers:
+#     resource:
+#         path: ../src/Controller/
+#         namespace: App\Controller
+#     type: attribute
+
+
+
+user_new:
+    path: /user/new
+    controller: App\Controller\UserController::new
+
+user_success:
+    path: /user/success
+    controller: App\Controller\UserController::success
